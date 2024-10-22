@@ -1,0 +1,16 @@
+.form-section {
+    border-radius: 100px;
+    background: radial-gradient(circle, rgba(67,61,96,1) 0%, rgba(36,33,51,1) 57%, rgba(33,30,46,1) 100%);
+}
+
+.form-section h2 {
+    border-bottom: 1px solid #8176AF;
+    /* border-image: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%); */
+}
+
+.form-inputs {
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    height: 3rem;
+    padding: .25rem 1rem;
+}

@@ -1,0 +1,35 @@
+.hero-img {
+    width: 30.625rem;
+    height: 26.625rem;
+    overflow: hidden;
+    border-radius: 100px 100px 100px 240px;
+    border: 15px solid rgba(0, 0, 0, 0.215);
+}
+.hero-img img {
+    transform: translateY(-50px);
+}
+
+.hero-contact-opts {
+    background: radial-gradient(circle, rgba(58,52,86,0.95) 0%, rgba(33,30,46,1) 100%);
+    height: 10rem;
+    overflow: hidden;
+}
+
+.opt-icon {
+    font-size: 3rem;
+    color: #C0B7E8;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-img {
+        width: 25rem;
+        height: 20rem;
+    }
+    .hero-img img {
+        transform: translateY(0);
+    }
+
+    .hero-contact-opts {
+        height: 6.7rem;
+    }
+}

@@ -1,0 +1,11 @@
+.navbar *{
+    font-size: .75rem;
+}
+
+.nav-contact {
+    border: 1px solid #fff;
+}
+
+.menu {
+    color: #C0B7E8;
+}
